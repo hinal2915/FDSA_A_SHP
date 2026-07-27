@@ -1,0 +1,7 @@
+Practical-2
+Problem 1
+First I do not understand why we need helper then i understand it.
+And then not understand why we write return -1
+
+Problem 2
+Not face any problem bcz I learn it in 1st lec
