@@ -2,17 +2,20 @@
 using namespace std;
 int main()
 {
-    int sheet[5];
+    int n;
+    cout<<"Enter the sheet number:";
+    cin>>n;
+    int sheet[n];
     int i,j;
     int temp;
     cout<<"Enter the sheet no: ";
-    for(i=0;i<5;i++)
+    for(i=0;i<n;i++)
     {
         cin>>sheet[i];
     }
-    for(i=0;i<5;i++)
+    for(i=0;i<n;i++)
     {
-        for(j=0;j<5-i-1;j++)
+        for(j=0;j<n-i-1;j++)
         {
             if(sheet[j]>sheet[j+1])
             {
@@ -23,7 +26,7 @@ int main()
         }
     }
     cout<<"Sorted sheet: ";
-    for(i=0;i<5;i++)
+    for(i=0;i<n;i++)
     {
        cout<<sheet[i]<<" ";
     }
